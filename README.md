@@ -430,4 +430,5 @@ Para concluir nosso estudo, podemos nos perguntar: qual paradigma usar? A respos
 - Aplicações que usam WebSockets (ex.: chats, ações/notificações em tempo real).
 - Sistemas de IoT (dispositivos que reagem a eventos captados).
 
-A escolha do paradigma depende do problema, entretando, lembre-se que muitos sistemas modernos combinam diferentes paradigmas ao mesmo tempo, para aproveitar o melhor de cada abordagem.
+## Conclusão:
+A escolha de qual paradigma utilizar depende do problema que será solucionado, entretanto, lembre-se que muitos sistemas modernos combinam diferentes paradigmas ao mesmo tempo, para aproveitar o melhor de cada abordagem.
