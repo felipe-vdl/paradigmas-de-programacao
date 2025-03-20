@@ -348,7 +348,7 @@ Também conhecido como Event-Driven Programming, ou EDP, é um paradigma onde as
 
 - Desacoplamento (os componentes podem funcionar de forma independente, apenas reagindo a eventos quando necessário)
 
-### Exemplo de programação orientada a objetos em JavaScript:
+### Exemplo de programação orientada a eventos em JavaScript:
 Na programação web, os eventos são muito utilizados para criar interfaces reativas e manipuláveis.
 ```js
 // Seleciona um botão pelo ID
