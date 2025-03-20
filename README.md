@@ -293,7 +293,7 @@ console.log(numeros); // [1, 2, 3, 4]
 ```
 
 ### Efeitos Secundários:
-Um efeito secundário (também chamado side effect) ocorre quando uma função modifica ou afeta algo fora do escopo local dela, como:
+Um efeito secundário (também chamado de side effect) ocorre quando uma função modifica ou afeta algo fora do escopo local dela, como:
 - Alterar variáveis globais, ou fora do escopo local da função
 - Fazer requisições HTTP
 - Fazer operações de escrita em um banco de dados ou disco
