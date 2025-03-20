@@ -337,7 +337,7 @@ console.log(fatorial(5)); // Saída: 120
 ```
 
 ## Paradigma Orientado a Eventos (EDP):
-Também conhecido como Event-Driven Programming, ou EDP, é um paradigma onde as operações do programa são impulsionadas por eventos. Os eventos podem ter diversas naturezas, como ações do usuário, notificações de um processo, ou mudanças de estado observadas. Esse paradigma é amplamente utilizado em interfaces gráficas e sistemas assíncronos.
+Também conhecido como Event-Driven Programming, ou EDP, é um paradigma onde as operações do programa são engatilhadas por eventos. Os eventos podem ter diversas naturezas, como ações do usuário, notificações de um processo, ou mudanças de estado observadas. Esse paradigma é amplamente utilizado em interfaces gráficas e sistemas assíncronos.
 
 ### As principais características da programação orientada a eventos são:
 - Operações baseadas em eventos (o código reage a eventos notificados e mudanças observadas)
