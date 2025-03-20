@@ -14,9 +14,9 @@ Antes de elaborarmos cada paradigma em específico, é importante citar que pode
 Os paradigmas imperativos são aqueles onde descrevemos diretamente **COMO** um programa deve ser executado, especificando passo a passo as operações que serão realizadas. Geralmente, são focados em modificações de estado por meio de instruções sequenciais (podemos definir o "estado" de um programa como o conjunto de dados que define a condição atual do programa, incluindo suas variáveis, estruturas de dados, objetos, entre outros elementos que influenciam o comportamento do programa).
 
 As principais características dos paradigmas imperativos são:
-- Enfatiza a execução sequencial
+- Foco na execução sequencial
 - Uso de controles de fluxo (condicionais) e estruturas de repetição (for, while)
-- Utiliza variáveis mutáveis
+- Uso de variáveis mutáveis
 - O estado do programa pode ser alterado diretamente
 
 Podemos citar alguns paradigmas imperativos, como: 
@@ -60,9 +60,9 @@ Os paradigmas declarativos focam em **O QUE** deve ser feito/alcançado, sem esp
 Em vez de alterar diretamente os dados do programa, usamos funções que criam novas versões dos dados sem modificar os originais (chamamos isto de imutabilidade).
 
 #### As principais características dos paradigmas declarativos são:
-- Foca no resultado, e não na sequência específica de instruções executadas
-- Evita mudanças de estado do programa
-- Utiliza funções high-order e composição de funções
+- Foco no resultado, e não na sequência específica de instruções executadas
+- Evitar mudanças de estado do programa
+- Uso de funções high-order e composição de funções
   - Funções high-order são aquelas que aceitam funções como parâmetro, elas podem retornar uma outra função, ou o resultado em si.
 
   - A composição de funções é o encadeamento de múltiplas funções (cada função na cadeia recebe o resultado da função anterior na cadeia), o objetivo é transformar os dados com o uso de pequenas funções, ao invés de escrever uma única sequência maior de instruções.
@@ -113,9 +113,8 @@ Os paradigmas reativos focam na propagação de eventos e mudanças, permitindo 
 
 As principais características dos paradigmas reativos são:
 - Programação baseada em eventos e fluxos de dados assíncronos
-- Usa "observers" que reagem a mudanças de estado
-- Usa "listeners" que reagem a ocorrências de eventos
-- Muito utilizado em interfaces gráficas e programas assíncronos
+- Uso de "observers" que reagem a mudanças de estado
+- Uso de "listeners" que reagem a ocorrências de eventos
 
 ## Programas Assíncronos:
 Na programação assíncrona, algumas tarefas podem ser executadas independentemente de outras (ou seja, o programa não precisa esperar por uma operação ser completa para continuar a execução de outras operações que não dependem dela).
@@ -141,29 +140,29 @@ Neste caso, o programa não controla diretamente o fluxo, ele apenas reage quand
 
 ## Resumo das Categorias de Paradigmas:
 ### Imperativo:
-  Foca em como resolver o problema, com a definição de instruções passo a passo. Por exemplo:
-  - JavaScript procedural, entre outras linguagens procedurais como C, Python, etc.
+Foca em como resolver o problema, com a definição de instruções passo a passo. Por exemplo:
+- JavaScript procedural, entre outras linguagens procedurais como C, Python, etc.
 
 ### Declarativo:
-  Foca em o que precisa ser feito/alcançado, sem definir os passos específicos da execução. Por exemplo:
-  - SQL
-  - CSS
-  - Programação Funcional
+Foca em o que precisa ser feito/alcançado, sem definir os passos específicos da execução. Por exemplo:
+- SQL
+- CSS
+- Programação Funcional
 
 ### Reativo:
-  Baseado em eventos e reações a mudanças.
-  - Eventos de interface, observers
-  - JavaScript EventEmitter
-  - Node.js Streams
+Baseado em eventos e reações a mudanças.
+- Eventos de interface, observers
+- JavaScript EventEmitter
+- Node.js Streams
 
 # Paradigmas de Programação:
-  Agora, vamos especificar alguns dos paradigmas de programação mais comuns, que são:
-  1. Programação Procedural
-  2. Programação Orientada a Objetos (OOP)
-  3. Programação Funcional
-  4. Programação Orientada a Eventos (EDP)
+Agora, vamos especificar alguns dos paradigmas de programação mais comuns, que são:
+1. Programação Procedural
+2. Programação Orientada a Objetos (OOP)
+3. Programação Funcional
+4. Programação Orientada a Eventos (EDP)
 
-  Vamos explorar os conceitos básicos de cada um deles. Utilizaremos alguns exemplos de código em JavaScript, que é uma linguagem que suporta diversos paradigmas de programação.
+Vamos explorar os conceitos básicos de cada um deles. Utilizaremos alguns exemplos de código em JavaScript, que é uma linguagem que suporta diversos paradigmas de programação.
 
 ## Programação Procedural:
 Na programação procedural, organizamos o código como uma sequência de instruções e procedimentos. Esse paradigma segue a abordagem "passo a passo", onde especificamos diretamente as operações do programa.
