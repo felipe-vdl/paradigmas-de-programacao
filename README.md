@@ -170,6 +170,7 @@ Na programação procedural, organizamos o código como uma sequência de instru
 As características principais da programação procedural incluem:
 - Organização baseada em funções que podem ser declaradas
 - Uso de variáveis globais e locais
+- Uso de variáveis mutáveis
 - Estruturas de controle de fluxo e repetição (if, while, for)
 
 #### Exemplo em JavaScript:
@@ -188,7 +189,7 @@ console.log(resultado); // 15
 ```
 
 ## Programação Orientada a Objetos (OOP):
-Na programação orientada a objetos, organizamos o código em torno de objetos, que são instâncias de classes declaradas no programa. Objetos podem possuir atributos (dados) e métodos (funções abarcadas no objeto).
+Na programação orientada a objetos, organizamos o código em torno de objetos, que são instâncias de classes declaradas no programa. Objetos podem possuir atributos (dados abarcados no objeto) e métodos (funções abarcadas no objeto).
 
 #### As características principais da programação orientada a objetos são:
 - **Encapsulamento:** Os dados e métodos são guardados dentro objetos.
