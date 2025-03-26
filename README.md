@@ -192,11 +192,11 @@ console.log(resultado); // 15
 Na programação orientada a objetos, organizamos o código em torno de objetos, que são instâncias de classes declaradas no programa. Objetos podem possuir atributos (dados abarcados no objeto) e métodos (funções abarcadas no objeto).
 
 #### As características principais da programação orientada a objetos são:
-- **Encapsulamento:** Os dados e métodos são guardados dentro objetos.
+- **Encapsulamento:** Os dados e métodos são guardados dentro de objetos.
 
-- **Abstração:** Os objetos escondem os detalhes internos e expõem apenas seus atributos (que podem ser lidos/modificados) e métodos (que podem ser executados).
+- **Abstração:** Por natureza, os objetos escondem seus detalhes internos (o código fica na declaração de sua classe) e expõem apenas seus atributos (que podem ser lidos/modificados) e métodos (que podem ser executados).
 
-- **Herança:** Podemos declarar uma classe com base em outra classe (a nova classe herda todas as características da classe base, pode ter seus próprios atributos e métodos, e também é possível alterar os atributos/métodos herdados).
+- **Herança:** Podemos declarar uma classe com base em outra classe (a nova classe herda todas as características da classe base, pode ter seus próprios atributos e métodos, e também é possível sobrescrever os atributos/métodos herdados).
 
 - **Polimorfismo:** Permite tratar as classes de forma genérica, ou seja, quando uma certa classe é herdeira de uma classe base, pode-se dizer de forma genérica que esta classe pertence a classe que foi herdada. Por exemplo, considere que uma classe "Felino" e uma classe "Canino" herdam uma classe base "Animal". Neste caso, podemos dizer que objetos da classe "Felino" e "Canino" pertencem a classe "Animal".
 
